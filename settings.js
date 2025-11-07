@@ -1,11 +1,11 @@
 module.exports = {
-  name: "Shin APIs",
+  name: "Nikox APIs",
   description:
     "This interactive interface allows you to explore and test our comprehensive collection of API endpoints in real-time.",
   header: {
     status: "Online!",
     imageSrc: [
-      "https://cdnb.artstation.com/p/assets/images/images/066/149/065/original/killer-rabbit-media-chinese-alleyway-export.gif?1692171513",
+      "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyM29iaTI0ZHhxNG82OGcyZ3M1Y2hva3AyMXdwcXI1d3Q5cnpzaHg0eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3dhmyq6EKw2x7eFt4X/giphy.gif",
     ],
     imageSize: {
       mobile: "80%",
@@ -14,8 +14,8 @@ module.exports = {
     },
   },
   icon: "/docs/image/icon.png",
-  author: "ShinDesu",
-  telegram: "https://t.me/+AQO22J2q6KBlNWM1",
+  author: "Angel Nico Igdalino",
+  telegram: "t.me/Nikox_24",
   notification: [
     {
       title: "New API Added",
