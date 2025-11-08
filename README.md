@@ -1,7 +1,7 @@
 # Nikox API UI V2
 
 > Interactive REST API documentation + sandbox UI for file-based API endpoints.
-> **Live demo:** [https://shin-apis.onrender.com/](https://shin-apis.onrender.com/)
+> **Live demo:** [https://nikox-api.onrender.com/](https://nikox-api.onrender.com/)
 
 ---
 
