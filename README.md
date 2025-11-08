@@ -1,4 +1,4 @@
-# Shin API UI V2
+# Nikox API UI V2
 
 > Interactive REST API documentation + sandbox UI for file-based API endpoints.
 > **Live demo:** [https://shin-apis.onrender.com/](https://shin-apis.onrender.com/)
@@ -23,7 +23,7 @@
 
 # About
 
-Shin API UI is a lightweight UI and tiny Node server for documenting and exposing REST endpoints created as individual `.js` files under an `api/` folder. Each endpoint exports a `meta` object (used by the UI) and an `onStart` function that handles the incoming request.
+Nikox API UI is a lightweight UI and tiny Node server for documenting and exposing REST endpoints created as individual `.js` files under an `api/` folder. Each endpoint exports a `meta` object (used by the UI) and an `onStart` function that handles the incoming request.
 
 ---
 
@@ -43,8 +43,8 @@ Shin API UI is a lightweight UI and tiny Node server for documenting and exposin
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/ajirodesu/Shin-API-UI-V2.git
-cd Shin-API-UI-V2 
+git clone https://github.com/Nikox24/Nikox-Api-UI.git
+cd Nikox-Api-UI
 ````
 
 2. Install dependencies:
@@ -75,10 +75,10 @@ Example `settings.js`:
 
 ```js
 module.exports = {
-  name: 'Shin APIs',
+  name: 'Nikox APIs',
   description: 'This interactive interface allows you to explore and test our comprehensive collection of API endpoints in real-time.',
   icon: '/docs/image/icon.png',
-  author: 'ShinDesu',
+  author: 'Angel Nico Igdalino',
   telegram: 'https://t.me/+AQO22J2q6KBlNWM1',
   notification: [
     { title: 'New API Added', message: 'Blue Achieve and Loli API have been added to the documentation.' },
@@ -266,7 +266,7 @@ curl "https://shin-apis.onrender.com/example/example?text=Hello"
 # Deploying
 
 * The repo is compatible with Vercel, Render, and other Node hosts.
-* For the public demo, see: [https://shin-apis.onrender.com/](https://shin-apis.onrender.com/)
+* For the public demo, see: [https://nikox-api.onrender.com/](https://nikox-api.onrender.com/)
 * On hosts like Render or Vercel, connect the GitHub repo and follow their deployment flow. Ensure `index.js` and `package.json` `start` script are correct.
 
 ---
