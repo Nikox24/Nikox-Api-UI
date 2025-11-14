@@ -4,7 +4,7 @@ module.exports = {
   meta: {
     name: "soundcloud",
     category: "music",
-    description: "Get direct MP3 from SoundCloud by search query",
+    desc: "Get direct MP3 from SoundCloud by search query",
     author: "Nikox",
     method: "GET",
     params: [{ name: "search", required: true }]
