@@ -4,7 +4,7 @@ module.exports = {
   meta: {
     name: "youtubemusic",
     category: "music",
-    description: "Get YouTube music info and direct MP3 audio",
+    desc: "Get YouTube music info and direct MP3 audio",
     author: "Nikox",
     method: "GET",
     params: [{ name: "query", required: true }]
